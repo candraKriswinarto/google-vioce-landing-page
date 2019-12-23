@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  background: #1a73e8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+section h5 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+section img {
+  width: 80%;
+}
+
+section p {
+  color: #757575;
+  line-height: 1.3;
+  text-align: center;
+}
+
+header {
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px #e0e0e0;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo img {
+  width: 2.2rem;
+}
+
+header span {
+  align-self: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #757575;
+  margin-left: .3rem;
+}
+
+nav ul a.text-link {
+  font-weight: bold;
+  color: #757575;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+/* hero section */
+.hero-wrap {
+  text-align: center;
+}
+
+.hero-wrap img.brand-logo {
+  width: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-wrap .hero-buttons {
+  width: 23rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.hero-wrap .hero-buttons .btn-hero {
+  background: #00796b;
+  width: 10rem;
+  margin: 0.5rem 0;
+  padding: .7rem 0;
+  font-size: .8rem;
+}
+
+@media screen and (min-width: 600px) {
+  .hero-wrap .hero-buttons {
+    flex-direction: row;
+    margin-bottom: 4rem;
+  }
+}
+
+/* stay connected */
+section#stay-connected {
+  background: #f8f9fa;
+  padding-bottom: 0;
+}
+
+#stay-connected img {
+  margin-top: 3rem;
+}
+
+/* take controll */
+section#take-control {
+  padding-bottom: 0;
+}
+
+#take-control img {
+  margin-top: 3rem;
+}
+
+/* get voice */
+section#get-voice {
+  padding-bottom: 1.5rem;
+  background: #f8f9fa;
+}
+
+.get-voice-wrap {
+  text-align: center;
+}
+
+.get-voice-wrap img {
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.get-voice-wrap h1 {
+  font-size: 2rem;
+  color: #222;
+  font-weight: lighter;
+  margin-bottom: .5rem;
+}
+
+.get-voice-wrap .get-voice-buttons {
+  width: 23rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.get-voice-wrap .get-voice-buttons .get-voice-btn {
+  background: #00796b;
+  width: 10rem;
+  margin: 0.5rem 0;
+  padding: .7rem 0;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 600px) {
+  .get-voice-wrap .get-voice-buttons {
+    flex-direction: row;
+  }
+}
+
+/* legal */
+section#legal {
+  padding: 0;
+}
+
+section#legal .legal-wrap {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+}
+
+section#legal .legal-wrap small {
+  text-align: start;
+  font-size: .7rem;
+  line-height: 1.2rem;
+  color: #222;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #4a4a4a;
+}
+
+footer a {
+  color: #4a4a4a;
+}
+
+footer .google-logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer .footer-nav {
+  margin: 1.2rem 0 .9rem 0;
+}
+
+footer .footer-help a {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-help a img {
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+@media screen and (min-width: 770px) {
+  section h1 {
+    font-size: 3.5rem !important;
+  }
+
+  section h5 {
+    font-size: 1.5rem !important;
+  }
+
+  section p {
+    font-size: 1.1rem !important;
+    line-height: 1.7rem !important;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer .footer-help {
+    margin-left: auto;
+  }
+
+  footer .footer-nav {
+    margin: 2rem;
+  }
+}
